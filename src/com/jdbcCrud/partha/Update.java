@@ -17,7 +17,8 @@ public class Update {
 					System.out.println("Succesfully updated the entry in database");
 				}
 				else {
-					System.out.println("Roll entered roll number is invalid");
+					System.out.println("Entered ID number is invalid. Try again");
+					System.exit(0);
 				}
 			}
 		}
